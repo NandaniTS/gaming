@@ -1,0 +1,106 @@
+@import "@fontsource/montserrat";
+@import "@fontsource/poppins";
+
+
+:root { --font-regular: "adlery" }
+
+@font-face {
+    font-family: "adlery";
+    font-weight: normal;
+    src: url("../Font/adlery-pro-cufonfonts/AdleryPro-xD7K.ttf") format("truetype") ;
+}
+
+
+h1{
+    font-family: "adlery";
+}
+/* #nav{
+    width: 75%;
+} */
+
+#first{
+    background-image: url("/assets/Group 5.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+#four p{
+    font-size:11px ;
+    color:  #666666;
+}
+
+#four a{
+    color: #CAAC0F;
+    font-size: 12px;
+    font-weight: 500;
+}
+#four h2{
+    font-size: 14px;
+    font-family: "Montserrat" ;
+    /* font-weight: 700 !important; */
+}
+
+input::placeholder{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 10px;
+    color: #333333;
+}
+
+
+.nav-toggle {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+  } 
+
+
+  .nav-toggle {
+        display: block;
+      }
+
+      .nav-tog{
+        display: none;
+      }
+
+      .nav-active .nav-toggle{
+        display: none;
+      }
+    
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .nav-links .nav-active{
+        display: block !important;
+      }
+
+      #close{
+        width: 30px;
+        margin-left: 12px;
+        /* display: block; */
+       
+      }
+
+
+    
+      .nav-links.nav-active {
+        display: flex;
+        flex-direction: column !important;
+      }
+    
+      .nav-links ul {
+        flex-direction: column;
+        width: 100%;
+      }
+      
+      .nav-active{
+        flex-direction: column-reverse !important;
+        /* border: 1px solid black; */
+      }
+      .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+      }
